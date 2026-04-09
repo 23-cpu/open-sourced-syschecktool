@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/26610431/README.md)
 # syscheck
 
 A lightweight, read-only system health snapshot tool.
