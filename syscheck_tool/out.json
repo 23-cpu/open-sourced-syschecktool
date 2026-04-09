@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-01-22T18:39:01.275274+00:00",
+  "platform": {
+    "system": "Linux",
+    "release": "6.14.0-37-generic",
+    "version": "#37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2",
+    "machine": "x86_64",
+    "python": "3.12.3"
+  },
+  "uptime_seconds": 527008,
+  "loadavg": [
+    0.4345703125,
+    0.3037109375,
+    0.25732421875
+  ],
+  "memory": {
+    "total_gb": 15.52,
+    "used_gb": 5.45,
+    "available_gb": 10.07
+  },
+  "disks": [
+    {
+      "path": "/",
+      "total_gb": 491.08,
+      "used_gb": 128.08,
+      "free_gb": 337.98,
+      "percent_used": 26.1
+    }
+  ],
+  "network": {
+    "dns": {
+      "hostname": "one.one.one.one",
+      "error": "gaierror: [Errno -3] Temporary failure in name resolution"
+    },
+    "ping": {
+      "target": "1.1.1.1",
+      "ok": false,
+      "output": "ping: connect: Network is unreachable"
+    }
+  },
+  "top_processes": {
+    "lines": [
+      "PID COMMAND         %CPU %MEM",
+      "  52964 python3         66.6  0.0",
+      "  51258 update-manager   3.8  1.6",
+      "  51868 nautilus         1.0  1.1",
+      "   3204 usbmuxd          0.9  0.0",
+      "   3389 firefox          0.3  2.9"
+    ]
+  }
+}
